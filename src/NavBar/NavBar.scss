@@ -1,0 +1,13 @@
+ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 20px;
+    li{
+        list-style:none;
+        color:brown;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
