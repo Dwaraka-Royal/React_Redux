@@ -20,7 +20,7 @@ class Contact extends Component{
         
         return(
         <div>
-            <h1>Hey iam Contact</h1>
+            <h1>Hey i am Contact</h1>
             <ul>
                 {this.state.user.map((user) =>{
                     return <li key={user.id}>{ user.email}</li>
